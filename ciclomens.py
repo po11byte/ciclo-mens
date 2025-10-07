@@ -1,7 +1,6 @@
 import streamlit as st
 import datetime
 import pandas as pd
-import matplotlib.pyplot as plt
 import requests
 
 st.set_page_config(page_title="App del Ciclo Menstrual", layout="centered")
@@ -208,4 +207,5 @@ with col2:
     st.write("4. Copia tu key")
 
 st.markdown("---")
+
 st.write("App del Ciclo Menstrual con APIs | Desarrollado con Streamlit")
